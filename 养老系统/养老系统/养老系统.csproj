@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B2A3757-8E8C-4F4F-A304-5029BB4CA2F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>养老系统</RootNamespace>
+    <AssemblyName>养老系统</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AA2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AA2.Designer.cs">
+      <DependentUpon>AA2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\AA1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\AA1.Designer.cs">
+      <DependentUpon>AA1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\C1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\C1.Designer.cs">
+      <DependentUpon>C1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\C10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\C10.Designer.cs">
+      <DependentUpon>C10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\C11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\C11.Designer.cs">
+      <DependentUpon>C11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\C3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\C3.Designer.cs">
+      <DependentUpon>C3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\C4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\C4.Designer.cs">
+      <DependentUpon>C4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\C5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\C5.Designer.cs">
+      <DependentUpon>C5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\C6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\C6.Designer.cs">
+      <DependentUpon>C6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\C7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\C7.Designer.cs">
+      <DependentUpon>C7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\C8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\C8.Designer.cs">
+      <DependentUpon>C8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\C9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\C9.Designer.cs">
+      <DependentUpon>C9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AAA\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAA\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xinxi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xinxi.Designer.cs">
+      <DependentUpon>xinxi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="没用的\Binfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="没用的\Binfo.Designer.cs">
+      <DependentUpon>Binfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ceshi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ceshi.Designer.cs">
+      <DependentUpon>ceshi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ceshi2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ceshi2.Designer.cs">
+      <DependentUpon>ceshi2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="houtairuzhu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="houtairuzhu.Designer.cs">
+      <DependentUpon>houtairuzhu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="没用的\infoSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="没用的\infoSend.Designer.cs">
+      <DependentUpon>infoSend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="houtai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="houtai.Designer.cs">
+      <DependentUpon>houtai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jinkubangding.cs" />
+    <Compile Include="juanzhengguanli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juanzhengguanli.Designer.cs">
+      <DependentUpon>juanzhengguanli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loginlogcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loginlogcs.Designer.cs">
+      <DependentUpon>Loginlogcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ruyuanguanli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ruyuanguanli.Designer.cs">
+      <DependentUpon>ruyuanguanli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signup.Designer.cs">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yanglaoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>yanglaoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="yanglaoDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>yanglaoDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="yanglaoDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>yanglaoDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="yanglaoDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>yanglaoDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zhuangtaifrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zhuangtaifrom.Designer.cs">
+      <DependentUpon>zhuangtaifrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="类文件\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="类文件\DB.cs" />
+    <EmbeddedResource Include="AA2.resx">
+      <DependentUpon>AA2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\AA1.resx">
+      <DependentUpon>AA1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\C1.resx">
+      <DependentUpon>C1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\C10.resx">
+      <DependentUpon>C10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\C11.resx">
+      <DependentUpon>C11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\C3.resx">
+      <DependentUpon>C3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\C4.resx">
+      <DependentUpon>C4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\C5.resx">
+      <DependentUpon>C5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\C6.resx">
+      <DependentUpon>C6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\C7.resx">
+      <DependentUpon>C7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\C8.resx">
+      <DependentUpon>C8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\C9.resx">
+      <DependentUpon>C9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAA\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xinxi.resx">
+      <DependentUpon>xinxi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="没用的\Binfo.resx">
+      <DependentUpon>Binfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ceshi.resx">
+      <DependentUpon>ceshi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ceshi2.resx">
+      <DependentUpon>ceshi2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="houtairuzhu.resx">
+      <DependentUpon>houtairuzhu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="没用的\infoSend.resx">
+      <DependentUpon>infoSend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="houtai.resx">
+      <DependentUpon>houtai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juanzhengguanli.resx">
+      <DependentUpon>juanzhengguanli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loginlogcs.resx">
+      <DependentUpon>Loginlogcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ruyuanguanli.resx">
+      <DependentUpon>ruyuanguanli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signup.resx">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zhuangtaifrom.resx">
+      <DependentUpon>zhuangtaifrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="yanglaoDataSet.xsc">
+      <DependentUpon>yanglaoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="yanglaoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>yanglaoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="yanglaoDataSet.xss">
+      <DependentUpon>yanglaoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="yanglaoDataSet1.xsc">
+      <DependentUpon>yanglaoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="yanglaoDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>yanglaoDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="yanglaoDataSet1.xss">
+      <DependentUpon>yanglaoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="yanglaoDataSet2.xsc">
+      <DependentUpon>yanglaoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="yanglaoDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>yanglaoDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="yanglaoDataSet2.xss">
+      <DependentUpon>yanglaoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="yanglaoDataSet3.xsc">
+      <DependentUpon>yanglaoDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="yanglaoDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>yanglaoDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="yanglaoDataSet3.xss">
+      <DependentUpon>yanglaoDataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

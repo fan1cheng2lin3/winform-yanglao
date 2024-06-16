@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="yanglao" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=yanglao;Integrated Security=True" SettingsObjectName="养老系统.Properties.Settings" SettingsPropertyName="yanglaoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.zhuangtai_Table" Member="zhuangtai_Table">
+    <Type Name="zhuangtai_Table">
+      <Column Name="number" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="jiashubianhao" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sex" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="city" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="decs" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chengni" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="qingxv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Oxygen_Saturation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="xinlv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="xueya" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Body_Temperature" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="xuetang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cholesterol" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Weight" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="updatezhuangtai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Oid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="shuifei" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dianfei" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="shenghuofei" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chongzhiliexin" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chongzhijine" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.jinku_Table" Member="jinku_Table">
+    <Type Name="jinku_Table">
+      <Column Name="number" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="shuifei" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dianfei" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="shenghuofei" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="jinge" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="jiashubianhao" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
